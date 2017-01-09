@@ -8,15 +8,15 @@
  *
  * Created on 24 dec. 2012, 5:05:39
  */
-package SerMv;
+package ServApp;
 
 import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
 import RequestResponse.ConsoleServeur;
 import java.net.ServerSocket;
 import javax.swing.DefaultListModel;
-import SerMv.ListeTaches;
-import SerMv.ServerThread;
+import ServApp.ListeTaches;
+import ServApp.ServerThread;
 
 /**
  *

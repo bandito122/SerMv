@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package SerMv.Utils;
+package SerApp.Utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

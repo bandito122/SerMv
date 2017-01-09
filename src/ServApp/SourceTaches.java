@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package SerMv;
+package ServApp;
 
 import java.net.Socket;
 
