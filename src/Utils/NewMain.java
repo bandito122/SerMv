@@ -5,6 +5,8 @@
  */
 package Utils;
 
+import Utils.FichierConfig;
+
 /**
  *
  * @author bobmastrolilli
