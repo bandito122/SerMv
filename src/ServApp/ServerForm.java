@@ -50,7 +50,7 @@ public class ServerForm extends javax.swing.JFrame implements ConsoleServeur{
         TableauEvenements = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("ServeurReservation");
+        setTitle("Serveur_Appareils");
 
         Tabs.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         Tabs.setDoubleBuffered(true);
@@ -94,7 +94,7 @@ public class ServerForm extends javax.swing.JFrame implements ConsoleServeur{
                         .addComponent(L_port)
                         .addGap(18, 18, 18)
                         .addComponent(TF_port, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 195, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 201, Short.MAX_VALUE)
                         .addComponent(B_connect)))
                 .addContainerGap())
         );
@@ -117,9 +117,7 @@ public class ServerForm extends javax.swing.JFrame implements ConsoleServeur{
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(Tabs)
-                .addContainerGap())
+            .addComponent(Tabs, javax.swing.GroupLayout.DEFAULT_SIZE, 528, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
